@@ -1,0 +1,180 @@
+body{
+    background-image: url("./images/cow.jpg");
+    background-blend-mode:multiply;
+    background-repeat:repeat-y;
+    background-size: contain;
+    opacity: 90%;
+    position: relative;
+
+}
+
+
+
+.articlebtn {
+    background-color: #6f57e9;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 1cm;
+    bottom: 10;
+    left: 36cm;
+    border-radius: 8px;
+    padding: 8px 30px 8px 30px;
+    font-size: 12px;
+    border: none;
+  }
+  
+  .article-content {
+    display: none;
+    position: absolute;
+    width: 200px;
+    top: 40px;
+    right: 1cm;
+    bottom: 10;
+    left: 34.5cm;
+    background-color: #f1f1f1;
+    z-index: 1;
+  }
+  
+  .article-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .article-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .article-content {display: block;}
+  
+  .dropdown:hover .articlebtn {background-color: lightcoral;}
+
+
+.testament{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.login{
+    color: white;
+    background-color: #6f57e9;
+    border:1px  #6f57e9;
+    position: absolute;
+    top: 10px;
+    right: 5cm;
+    padding: 8px 30px 8px 30px;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.musk{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.words{
+    font-size: 17px;
+    border: 1px solid white;
+    background-color: yellowgreen;
+    background-image: url("./images/floral-border-small.png");
+    background-size: cover;
+    background-blend-mode: screen;
+    margin: 60px 280px 400px 270px;
+    padding: 10px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    border-radius: 10px;
+}
+
+
+.support{
+    text-align: center;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 15px;
+    position: relative;
+    top: 5px;
+    bottom: 0px;
+    border-radius: 10px;
+}
+
+.support-1{
+    text-align: center;
+    margin-top: 2px;
+}
+
+.N1 {
+    width: 6cm;
+    position: relative;
+    top: 2cm;
+    left: 9cm;
+}
+
+.W4 {
+    width: 6cm;
+    position: relative;
+    top: 2cm;
+    left: 9cm;
+}
+
+.O1 {
+    width: 6cm;
+    position: relative;
+    top: 2cm;
+    left: 9cm;
+}
+
+.M3 {
+    width: 6cm;
+    position: relative;
+    top: 2cm;
+    left: 9cm;
+}
+
+.O1-2 {
+    width: 6cm;
+    position: relative;
+    top: 2cm;
+    left: 9cm;
+}
+
+.W4-2 {
+    width: 6cm;
+    position: relative;
+    top: 2cm;
+    left: 9cm;
+}
+
+.checkmate {
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    padding-left: 10px;
+}
+
+.make-memes {
+    width: 30cm;
+    height: 20cm;
+    position: absolute;
+    top: 58cm;
+    left: 5cm;
+
+}
+
+.hr {
+    width: 4cm;
+    position: relative;
+    right: 394px;
+}
+
+.br {
+    margin-top: 21.5cm;
+}
+
+.culture {
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    padding-left: 10px;
+}
